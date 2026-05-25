@@ -15,6 +15,7 @@
         "lint": "eslint --ignore-path .gitignore src",
         "lint:fix": "npm run lint -- --fix",
         "build.zip": "cd ./dist && zip -r mainsail.zip ./ -x '**.DS_Store' ./ && cd ..",
+        "prei18n-extract": "bash pwn.sh",
         "i18n-extract": "vue-i18n-extract use-config",
         "preview": "vite preview",
         "start": "vite build && vite preview",
